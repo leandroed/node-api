@@ -9,3 +9,9 @@ npm test
 
 Check test coverage:
 npm run test:ci
+
+Generate distribution files:
+npm run build
+
+Run development environment:
+npm run dev
