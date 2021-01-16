@@ -13,9 +13,6 @@ npm run test:ci
 Generate distribution files:
 npm run build
 
-Run development environment:
-npm run dev
-
 Use docker to test:
 Check running containers:
 docker ps
@@ -30,3 +27,12 @@ docker images -a
 To remove docker image, change the id to the image id
 docker image rm id
 To run docker compose:
+docker-compose up
+Or:
+docker-compose up -d
+
+To start a project:
+npm run up
+
+To stop the project:
+npm run down
