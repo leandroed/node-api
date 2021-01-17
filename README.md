@@ -36,3 +36,6 @@ npm run up
 
 To stop the project:
 npm run down
+
+Update dependencies:
+npm update
