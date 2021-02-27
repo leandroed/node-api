@@ -2,7 +2,8 @@
   "name": "clean-node-api",
   "version": "2.2.0",
   "description": "NodeJs Api using TDD, clean architecture and typescript",
-  "main": "index.js",
+  "author": "Leandro",
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "start": "node dist/main/server.js",
     "build": "rimraf dist && tsc -p tsconfig-build.json",
@@ -17,9 +18,6 @@
     "test:ci": "npm test -- --coverage",
     "check": "npm-check -s -t"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@shelf/jest-mongodb": "^1.2.3",
     "@types/bcrypt": "^3.0.0",
