@@ -1,3 +1,5 @@
+[![Build Status](https://www.travis-ci.com/leandroed/node-api.svg?token=gpd9yNQozfG3phgKYbEz&branch=master)](https://www.travis-ci.com/leandroed/node-api)
+
 Execute unit test:
 npm run test:unit
 
